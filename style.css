@@ -19,7 +19,7 @@ a{
 li{
     list-style: none;
 }
-/*all used classes*/
+/*utility classes*/
 .flex{
     display: flex;
     align-items: center;
@@ -27,7 +27,80 @@ li{
     gap: 30px;
     
 }
+.container{
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+    padding-left: 400px;
+    padding-right: 300px;
+    gap: 200px;
+}
 /*navbar*/
 #nav-container{
     padding: 20px 200px;
+}
+#nav-container :hover{
+    color:rgb(125, 118, 118);
+   
+}
+.Profile-image{
+    border-radius: 50%;
+}
+.Profile-info{
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.Profile-info p{
+    color: rgb(118, 115, 115);
+}
+.Profile-image h1{
+    color: black;
+}
+.button-container button{
+    
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.button-container button#btn1{
+    background-color: black;
+    
+}
+.button-container .a1{
+    color: white;
+}
+.button-container button#btn2{
+    background-color: white;
+}
+.button-container button:hover{
+    background-color: lightgray;
+}
+.logos{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*Second section*/
+#second-section{
+    padding: 80px 200px;
+    height: 100vh;
+    width: 100%;
+    margin-top: 170px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.container2 img{
+    max-width: 100%;
+    height: auto;
+    padding-top: 200px;
 }
